@@ -59,7 +59,7 @@ const Navbar = () => {
           <div className={`bar ${isMenuOpen ? 'animate' : ''}`}></div>
           <div className={`bar ${isMenuOpen ? 'animate' : ''}`}></div>
           </div>
-          <div style={{ color: 'white', marginLeft: '5%' , fontWeight:'700',fontSize:"20px"}}>AgriSense</div>
+          <div style={{ color: 'white', marginLeft: '5%' , fontWeight:'700',fontSize:"20px"}}>KrishiConnect</div>
         </div>
         <nav className={`mobile-menu ${isMenuOpen ? 'active' : ''}`}>
           <ul>
