@@ -14,7 +14,7 @@ function CropAi() {
     e.preventDefault();
 
     try {
-      const res = await axios.post("https://final-04do.onrender.com/cropai", {
+      const res = await axios.post("https://krishiconnect-backend-deployment.onrender.com/cropai", {
         prompt: text,
       });
       const responseText = res.data.text;

@@ -37,7 +37,7 @@ function Pestmanagement() {
     e.preventDefault();
 
     try {
-      const res = await axios.post("https://final-04do.onrender.com/pest", {
+      const res = await axios.post("https://krishiconnect-backend-deployment.onrender.com/pest", {
         prompt: text,
       });
       const responseText = res.data.text;

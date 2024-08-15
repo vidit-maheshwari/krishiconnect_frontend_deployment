@@ -20,7 +20,7 @@ function CropDoctor() {
       const formData = new FormData();
       formData.append("file", e.target[0].files[0]);
 
-      const res = await axios.post("https://final-04do.onrender.com/disease", formData, {
+      const res = await axios.post("https://krishiconnect-backend-deployment.onrender.com/disease", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },

@@ -16,7 +16,7 @@ const Chatbot = () => {
     setMessages([...messages, userMessage]);
 
     try {
-      const res = await axios.post("https://final-04do.onrender.com/chatbot", {
+      const res = await axios.post("https://krishiconnect-backend-deployment.onrender.com/chatbot", {
         prompt: input,
       });
       const botMessage = {

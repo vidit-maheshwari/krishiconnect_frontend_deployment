@@ -17,7 +17,7 @@ const Dashboard = () => {
     // Fetch sensor data from API
     const fetchData = async () => {
       try {
-        const response = await fetch('http://localhost:5100/api/sensor-data');
+        const response = await fetch('https://krishiconnect-backend-deployment.onrender.com/api/sensor-data');
         const data = await response.json();
         setSensorData(data.sensorData);
         setLocation(data.location); // Set the location data
